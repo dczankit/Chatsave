@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chatsave</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup">
+    <header class="brand-row">
+      <div class="logo-box" aria-hidden="true">[</div>
+      <div>
+        <h1>chatsave</h1>
+        <p class="tagline">offline conversation archive</p>
+      </div>
+    </header>
+
+    <section class="status-card">
+      <span class="status-dot" id="statusDot"></span>
+      <span id="statusText">Checking current tab...</span>
+    </section>
+
+    <section class="stats-grid">
+      <article class="stat-tile">
+        <span class="stat-value" id="totalConvos">0</span>
+        <span class="stat-label">Conversations</span>
+      </article>
+      <article class="stat-tile">
+        <span class="stat-value" id="totalMsgs">0</span>
+        <span class="stat-label">Messages</span>
+      </article>
+    </section>
+
+    <section class="source-list" id="sources"></section>
+
+    <button class="primary-btn" id="openViewer">Open chat history</button>
+
+    <footer class="footer">Stored locally in this browser</footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
