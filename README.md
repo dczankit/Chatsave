@@ -31,7 +31,7 @@ I don’t really know anything about web dev except basic HTML and CSS, so I mos
 ### Saving Conversations
 
 - **Auto-save**: The extension automatically saves conversations as you chat on ChatGPT
-- **Manual save**: Click the extension icon and press "Save Current Chat"
+- **Manual save**: Click the white dot that appears to the lower right corner when you open a conversation (works for older chats too)
 
 ### Viewing Conversations
 
