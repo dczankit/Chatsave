@@ -1,12 +1,6 @@
 # Chatsave
 
-The thing is, I don’t have good internet where I live, and it’s really unreliable, and at this point, ChatGPT conversations have kind of become like a personal library for me, and I often want to revisit things, but doing that with my internet connection is really frustrating, thanks to Jio.
-
-So I decided to vibe-code an extension to save my ChatGPT conversations and view them offline.
-
-Basically, it runs in the background and detects when you have ChatGPT opened in your browser, and it records any conversation that you make with ChatGPT and saves it in the browser (you can also save a convo manually), and you can view those saved conversations later using the browser.
-
-I don’t really know anything about web dev except basic HTML and CSS, so I mostly don’t know how it all works, but Claude did the work in case you’re curious.
+A vibe coded extension to save chatgpt chats offline. 
 
 
 ## Features
